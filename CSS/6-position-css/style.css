@@ -1,0 +1,49 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+h1{
+      text-align: center;
+}
+.container{
+      height: 500px;
+      width: 400px;
+      background-color: grey;
+      margin: 100px;
+}
+.spacer{
+      height: 500px;
+}
+.box{
+      height: 100px;
+      width: 100px;
+}
+.red{
+      background-color: red;
+      position: relative;
+      top: 50px;
+      left: 100px;
+      z-index: 1;
+}
+
+.green{
+      background-color: green;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+}
+.blue{
+      background-color: blue;
+      position: fixed;
+      top: 40px;
+      right:200px
+}
+.yellow{
+      background-color: yellow;
+      position: sticky;
+      top: 50px;
+      
+}
+/* .pink{
+      background-color: palevioletred;
+} */
