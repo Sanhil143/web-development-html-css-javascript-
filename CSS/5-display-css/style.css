@@ -1,0 +1,46 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color:#003049;
+      
+}
+
+
+ul{
+      text-align: end;
+      padding: 20px;
+      background-color: #216869;
+}
+li{
+      display: inline-block;
+      border: 1px solid;
+      border-radius: 15px;
+      padding: 10px;
+      margin: 0 30px 0 0;
+      background-color: #216869;
+}
+
+li:hover{
+      color: black;
+      cursor: pointer;
+      background-color: aqua;
+
+}
+.section{
+      margin: 10px 0 0 10px;      
+}
+.art{
+      display: inline-block;
+      margin: 5px 10px 0 0;
+      width: 20%;
+      height: 50%;
+      border:1px solid white;
+      text-transform: capitalize;
+      color: white;
+      
+}
+img{
+      width: 100%;
+      
+}
