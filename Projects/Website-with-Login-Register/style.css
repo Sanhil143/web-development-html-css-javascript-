@@ -222,3 +222,21 @@ button, input[type="submit"]{
      border: none;
      padding: 1rem 2rem;
 }
+
+
+@media screen and (max-width:768px){
+     .grid-two-cloumn{
+          grid-template-columns: 1fr;
+     }
+     .registeration-header .container, .home-header .container{
+          flex-direction: column;
+          gap: 1rem;
+     }
+     .registeration-header .container .logo, .home-header .container .logo{
+          padding-top: 2rem;
+     }
+     .registration, .login{
+          min-width: 90vw;
+     }
+     
+}
