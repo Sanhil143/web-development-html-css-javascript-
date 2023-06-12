@@ -59,9 +59,9 @@ button, input[type="submit"]{
       width: 80%;
       margin: auto;
       display: flex;
-      justify-content: space-between;
+      justify-content:space-between ;
       align-items: center;
-      background-color: red;
+      /* background-color: red; */
 }
 
 .logo a {
@@ -69,6 +69,7 @@ button, input[type="submit"]{
       font-weight: bold;
       color: #fff;
       text-decoration: none;
+      
 }
  ul{
       list-style: none;
@@ -81,8 +82,17 @@ button, input[type="submit"]{
  li > a {
       color: #fff;
       text-decoration: none;
- }
+      padding: 1rem;
+      
+      /* margin-right: 4rem; */
 
+ }
+ li > a:hover{
+      background-color: white;
+      color: black;
+      padding: 1rem;
+      border-radius: 40%;
+ }
  /* registration */
 
  main{
@@ -120,19 +130,19 @@ button, input[type="submit"]{
       margin: 2rem 0 3rem 0;
  }
 
- /* .form-text button{
+ .form-text button{
       background-color: transparent;
       color: #fff;
- } */
+ }
 
- /* .form-text button:hover{
+ .form-text button:hover{
       
       background-color: #fff;
       color: #000;
- } */
+ }
 
 
- /* .registration-form, .login-form{
+ .registration-form, .login-form{
       width: 100%;
       min-height: 45vh;
       background-color: #fff;
@@ -140,4 +150,75 @@ button, input[type="submit"]{
       justify-content: center;
       align-items: center;
       flex-direction: column;
- } */
+ }
+
+ .registration-form p, .login-form p{
+      margin: 1rem 0 .7rem 0;
+ }
+
+ .social-icons{
+      display: flex;
+      gap: 1.4rem;
+      margin: 1rem 0 .6rem 0;
+ }
+ .fa-brands{
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+      border: 0.1rem solid #ccc;
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.6rem;
+ }
+
+ input{
+      width: 20rem;
+      margin: .7rem 0;
+      border: none;
+      background-color: #e8e8e8;
+      padding: 1rem 1.8rem;
+      letter-spacing: .06rem;
+ }
+
+ input[type="submit"]{
+      margin-top: 1rem;
+      min-width: 10rem;
+      background-color: var(--var-primary-color);
+      color: #fff;
+ }
+
+ .registration:not(.login-section--display){
+     display: none;
+ }
+ .login-section--display .registration{
+     display: block;
+ }
+
+ .login-section--display .login{
+     display: none;
+ }
+
+
+.hero-section .container{
+     height: inherit;
+}
+
+.hero-section{
+     color: #fff;
+     text-align: center;
+}
+
+.hero-section p{
+     text-transform: uppercase;
+     margin-bottom: 1rem;
+     font-size: 1.3rem;
+     letter-spacing: .2rem;
+}
+
+.hero-section button{
+     margin-top: 2rem;
+     background-color: var(--var-primary-color);
+     border: none;
+     padding: 1rem 2rem;
+}
