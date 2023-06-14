@@ -1,4 +1,4 @@
-
+//Javascript on toggle functionality
 const userConn = document.querySelector('.user-container');
 
 const registerBtn = document.querySelector('.registration-btn');
